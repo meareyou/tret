@@ -52,18 +52,18 @@ API_KEY = os.environ.get("API_KEY", "997434")
 
 API_HASH = os.environ.get("API_HASH", "7b39fe96f0277cea4aea397b95ac8ee2")
 
-STRING_SESSION = os.environ.get("STRING_SESSION", None)
+STRING_SESSION = os.environ.get("STRING_SESSION", "1AZWarzMBu4ElGAtNOscghMMVUEv-7o7A9HSztYYwFmvEjNzTEJZZKDEu74lObaZDQ6KJDd6uYXepYH3UIYoTsBug-67ftxjB8SZ7R48b_1Un1LY7WOyi1RsD8nL5c6C8UE9s2z0R2VlfdcHARIFTuOm-tJxNZ1E4zH_KFSnujqnIKnnlZpyOz8qWNnUfZDpC1z8W0seEjDTDCBNS6iWeZBmqbeyeyoG1yrzMWDaZ6DuL6btOS5MfRkKsjCwZ-M9fi-_PqAqbwgEmIhdO1BAA3Szm53reAfCbGHCZj-FRnXBK3lqP8KHe-agfVi0p8pyXmZRHM8o91zoIBVQfyzMX2tt5M2NJ9aE=")
 
 LOGGER_GROUP = int(os.environ.get("LOGGER_GROUP", "-1001414336629"))
 
 LOGGER = sb(os.environ.get(
-    "LOGGER", "False"
+    "LOGGER", "True"
 ))  # Incase you want to turn off logging, put this to false
 
-PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
 
 CONSOLE_LOGGER_VERBOSE = sb(
-    os.environ.get("CONSOLE_LOGGER_VERBOSE", "False")
+    os.environ.get("CONSOLE_LOGGER_VERBOSE", "True")
     )
 
 DB_URI = os.environ.get("DATABASE_URL", None)
